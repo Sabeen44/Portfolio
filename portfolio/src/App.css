@@ -6,3 +6,28 @@
   background-color: #f75c03;
   font-size: larger;
 }
+
+.profile-pic {
+  padding-top: 20px;
+  border-radius: 50%;
+
+  width: 400px;
+  height: 400px;
+  transition: box-shadow 300ms;
+  padding-left: 20px;
+  margin-left: 100px;
+}
+img:hover {
+  box-shadow: 0 0 15px rgb(111, 111, 111); /* images have 15px of shadow on hover */
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  gap: 50px;
+}
+.greeting {
+  min-width: 360px;
+}
