@@ -1,12 +1,17 @@
 //import logo from "./logo.svg";
 import "./App.css";
+import { React } from "react";
 
 function App() {
   return (
-    <div className="App">
-      <h2> Hello You All </h2>
-    </div>
+    <main>
+      <Header />
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+    </main>
   );
 }
-
 export default App;
