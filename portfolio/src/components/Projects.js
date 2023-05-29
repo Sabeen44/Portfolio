@@ -1,5 +1,6 @@
 import React from "react";
 import { projects } from "../projectsData";
+import Card from "react-bootstrap/Card";
 
 export default function Projects() {
   return (
@@ -9,37 +10,41 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
-          </p>
         </div>
-        <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4"
-            >
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={project.image}
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
-                </div>
-              </div>
-            </a>
-          ))}
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          Hi, I am a beginner web developer. You can find my web-developement
+          projects in this portfolio. I have expereice in HTML, CSS, JavaScript,
+          React, Node.js, MongoDB. I enjoy learning new technologies and tools,
+          and I’m looking for new challenges and opportunities to improve my
+          skills and grow as a web developer. I’m passionate about creating
+          beautiful and functional web solutions that meet the needs and
+          expectations of the users. I’m also interested in web design, UX/UI
+          design, SEO, and web accessibility. I am currently available for
+          freelance work.
+        </p>
+
+        <div>
+          {projects.map((project) => {
+            const getProjects = (
+              <>
+                <ul className="card-deck">
+                  <li className="projectList" key={project.title}>
+                    <Card style={{ width: "30rem" }}>
+                      <Card.Img variant="top" src="images/Note-Taking.png" />
+                      <Card.ImgOverlay
+                        style={{ border: "5px solid #D90368" }}
+                      ></Card.ImgOverlay>
+                      <Card.Body>
+                        <Card.Title>{project.title}</Card.Title>
+                        <Card.Text>{project.description}</Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </li>
+                </ul>
+              </>
+            );
+            return getProjects;
+          })}
         </div>
       </div>
     </section>

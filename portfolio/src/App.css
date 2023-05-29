@@ -33,3 +33,16 @@ img:hover {
 .greeting {
   min-width: 360px;
 }
+
+.skillsList {
+  font-size: 2rem;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+}
+
+.card-deck .card {
+  flex-basis: 50%;
+}
