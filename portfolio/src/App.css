@@ -3,8 +3,10 @@
 }
 
 .navbar {
+  display: flex;
   background-color: #f75c03;
   font-size: larger;
+  justify-content: flex-end;
 }
 
 .profile-pic {
@@ -24,7 +26,7 @@ img:hover {
 .profile {
   display: flex;
   flex-wrap: wrap;
-
+  background-color: #2274a5;
   align-items: center;
   gap: 50px;
 }
