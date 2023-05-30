@@ -6,7 +6,7 @@ export default function About() {
       <div className="greeting">
         <h1>Hello, I'm Sabeen</h1>
 
-        <p>Aspiring Web Developer</p>
+        <h4>Aspiring Web Developer</h4>
       </div>
     </div>
   );
