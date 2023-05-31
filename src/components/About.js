@@ -6,7 +6,7 @@ export default function About() {
       <div className="greeting">
         <h1>Hello, I'm Sabeen</h1>
 
-        <h4>Aspiring Web Developer</h4>
+        <h4>Web Developer</h4>
       </div>
 
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
