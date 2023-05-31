@@ -22,13 +22,13 @@ export default function Projects() {
                 variant="top"
                 src={project.image}
                 style={{
-                  borderbottom: "inset",
-                  width: "29rem",
+                  borderBottom: "dotted",
+                  width: "28.5rem",
                   height: "20rem",
                 }}
               />
 
-              <Card.Body>
+              <Card.Body className="card-body">
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
                 <a href={project.link}>Visit Project</a>
