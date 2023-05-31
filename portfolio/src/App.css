@@ -33,6 +33,7 @@ img:hover {
   background-color: #2274a5;
   align-items: center;
   gap: 50px;
+  margin-bottom: 100px;
 }
 .greeting {
   min-width: 360px;
@@ -55,20 +56,29 @@ img:hover {
 .projects {
   display: flex;
   flex-direction: row;
-  align-items: cente;
+  align-items: center;
   margin-bottom: 100px;
   margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .project-card {
-  margin-left: 30px;
-  border-radius: 25%;
+  border-radius: 30%;
+  margin-bottom: 20px;
 }
 
-.contact {
-  background-color: #d90368;
+.footer {
+  background-color: #eb1177;
 }
 
 ul {
   list-style: none;
+}
+
+.social-link {
+  color: black;
+  font-size: larger;
+
+  margin-right: 20px;
 }

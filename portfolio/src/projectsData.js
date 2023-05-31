@@ -24,6 +24,33 @@ export const projects = [
     image: "images/MemoMates.png",
     link: "https://memomates.herokuapp.com",
   },
+
+  {
+    title: "Password Generator",
+    subtitle: "HTML, CSS",
+    description:
+      "This app allows users to randomly generate a password that meets a strict criteria ",
+    image: "images/password.png",
+    link: "https://sabeen44.github.io/unique-password-generator/",
+  },
+
+  {
+    title: "Weather Dash",
+    subtitle: "Javascript, Web API",
+    description:
+      "User can search for a city for current and 5-day weather forecast",
+    image: "images/weather.png",
+    link: "https://sabeen44.github.io/Weather-Dash/",
+  },
+
+  {
+    title: "Fun Coding Quiz",
+    subtitle: "Javascript, DOM",
+    description: "A 20 questions timed fun beginner coding quiz. ",
+    image: "images/quiz.png",
+    link: "https://sabeen44.github.io/Fun-Coding-Quiz/",
+  },
+
   // {
   //   title: "Epic Todo App",
   //   subtitle: "React Hooks",
