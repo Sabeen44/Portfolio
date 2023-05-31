@@ -2,7 +2,7 @@
 
 ## Overview
 
-Personal portfolio featuring github projects, resume and skills.
+Personal portfolio featuring projects, skills and resume.
 
 ## Technologies used
 
