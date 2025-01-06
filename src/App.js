@@ -4,12 +4,13 @@ import { React } from "react";
 import { useState, useEffect } from "react";
 
 import About from "./components/About";
-import Footer from "./components/Footer";
+
 //import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Header from "./components/Header";
+//import Header from "./components/Header";
 import Resume from "./components/Resume";
+
 
 import {
   BrowserRouter as Router,
@@ -36,11 +37,12 @@ export default function App() {
   return (
     <Router>
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Header />
+        {/* <Header /> */}
 
         <Routes>
-          <Route path="/" element={<About />} />
 
+          {/* <Route path="/" element={<Nav />} /> */}
+        <Route path="/" element={<About />} /> 
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
@@ -48,7 +50,7 @@ export default function App() {
 
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-        <Footer />
+        
       </div>
     </Router>
   );

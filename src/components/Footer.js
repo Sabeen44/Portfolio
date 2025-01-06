@@ -1,15 +1,14 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {  Row, Col } from "react-bootstrap";
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
-const ContactInfo = () => {
+const Footer = () => {
   return (
-    <Container fluid className="footer">
+    <div className="custom-footer">
       <Row>
         <Col>
-          <h3>Contact</h3>
-          <h4>Sabeen Chaudhry</h4>
-          <h5>web Developer</h5>
+          <h3>Ways to connect</h3>
+         
 
           <FaEnvelope />
           <a className="social-link" href="mailto:ch.sabeen@gmail.com">
@@ -30,8 +29,8 @@ const ContactInfo = () => {
           </a>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 };
 
-export default ContactInfo;
+export default Footer;

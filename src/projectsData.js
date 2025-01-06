@@ -1,10 +1,12 @@
+import { images } from './images';
+
 export const projects = [
   {
     title: "Note Taker",
     subtitle: "Express.js",
     description:
       "Here's an application that can be used to write and save notes. This application uses an Express.js back end and saves/retrieves notes from a JSON file.",
-    image: "images/Note-Taking.png",
+    image: images.image2,
     link: "https://gentle-refuge-50264.herokuapp.com/",
   },
   {
@@ -13,7 +15,7 @@ export const projects = [
     description:
       "Application to suggest movie based on mood represented by emojis",
 
-    image: "images/emojify.png",
+    image: images.image6,
     link: "https://samhiga.github.io/emojify/",
   },
   {
@@ -21,7 +23,7 @@ export const projects = [
     subtitle: "Mysql/Handlebars",
     description:
       "Minimalistic interface that allows you to quickly create and store notes about people you want to reconnect with",
-    image: "images/MemoMates.png",
+    image: images.image1,
     link: "https://memomates.herokuapp.com",
   },
 
@@ -30,7 +32,7 @@ export const projects = [
     subtitle: "HTML, CSS",
     description:
       "This app allows users to randomly generate a password that meets a strict criteria ",
-    image: "images/password.png",
+    image: images.image3,
     link: "https://sabeen44.github.io/unique-password-generator/",
   },
 
@@ -39,7 +41,7 @@ export const projects = [
     subtitle: "Javascript, Web API",
     description:
       "User can search for a city for current and 5-day weather forecast",
-    image: "images/weather.png",
+    image: images.image5,
     link: "https://sabeen44.github.io/Weather-Dash/",
   },
 
@@ -47,7 +49,7 @@ export const projects = [
     title: "Fun Coding Quiz",
     subtitle: "Javascript, DOM",
     description: "A 20 questions timed fun beginner coding quiz. ",
-    image: "images/quiz.png",
+    image: images.image4,
     link: "https://sabeen44.github.io/Fun-Coding-Quiz/",
   },
 
@@ -60,3 +62,4 @@ export const projects = [
   //   link: "https://pythonbootcamp.com",
   // },
 ];
+

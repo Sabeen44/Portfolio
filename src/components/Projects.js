@@ -3,6 +3,8 @@ import { projects } from "../projectsData";
 import Card from "react-bootstrap/Card";
 import "../App.css";
 
+
+
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -15,7 +17,8 @@ export default function Projects() {
               style={{
                 width: "30rem",
                 height: "30rem",
-                border: "10px solid",
+                border: "2px solid",
+                borderRadius:"10px"
               }}
             >
               <Card.Img
