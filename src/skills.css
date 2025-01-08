@@ -1,0 +1,76 @@
+.skills-heading{background-color: #79C7C2;
+    padding-bottom: 2rem;
+    text-align: center;
+     
+     justify-content: center; }
+
+.skills-heading h1{padding-top: 3rem;font-weight: bolder;}
+.skills {
+    /* font-family: 'Roboto', sans-serif; */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+     max-width: 800px; 
+     margin: 0 auto; 
+  }
+
+  .icon-container{
+    text-align: center;
+    display: flex;
+     justify-content: center;
+  }
+
+  .icon-list{
+list-style-type: none;
+padding: 0;
+margin: 0 10px;}
+
+.icons{font-size:x-large}
+
+  
+  .skills h1 {
+    font-size: 2.5rem;
+   
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  
+  .skills p {
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .skills li {
+    margin-bottom: 10px;
+  }
+
+  .projects-container{display: flex;align-items: center;flex-wrap: wrap;margin-top: 5rem;margin-bottom: 100px;justify-content: center;
+    }
+
+  
+  .project-heading{
+    background-color: #79C7C2;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .project-card{width:30rem;margin: 2rem;  border-radius: 30%;
+    margin-bottom: 20px; font-size: larger;
+
+  }
+
+  
+ 
+.card-body a{text-decoration: none;font-size: larger;font-weight: bolder;color:#FF7F7F ;}
+

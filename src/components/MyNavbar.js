@@ -19,6 +19,7 @@ export default function MyNavbar() {
         <Nav className="nav-links">
            <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>Home</Nav.Link>
             <Nav.Link as={Link} to="/projects" onClick={() => setExpanded(false)}>Projects</Nav.Link>
+            <Nav.Link as={Link} to="/skills" onClick={() => setExpanded(false)}>Skills</Nav.Link>
              <Nav.Link as={Link} to="/resume" onClick={() => setExpanded(false)}>Resume</Nav.Link> 
              </Nav> 
              </div> 
