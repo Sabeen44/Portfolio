@@ -14,7 +14,6 @@ Bootstrap
 
 ## Preview
 
-<img width="623" alt="image" src=>
 
 ## Deployed Link
 
