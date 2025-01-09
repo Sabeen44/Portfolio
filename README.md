@@ -14,7 +14,7 @@ Bootstrap
 
 ## Deployed Link
 
-https://sabeen44.github.io/
+https://sabeen44.github.io/Portfolio
 
 ## Questions
 
