@@ -1,6 +1,6 @@
 import React from "react";
 import { Document, Page } from "react-pdf";
-import pdfFile from "./sample.pdf";
+import pdfFile from "./Resume-Web Development.pdf";
 import { pdfjs } from "react-pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
