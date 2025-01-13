@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.97bd4453.css",
+    "main.js": "/Portfolio/static/js/main.395eb096.js",
+    "static/js/787.b98c23e5.chunk.js": "/Portfolio/static/js/787.b98c23e5.chunk.js",
+    "static/media/profile-pic.JPG": "/Portfolio/static/media/profile-pic.35635a84db345b0d47c9.JPG",
+    "static/media/pdf.worker.min.js": "/Portfolio/static/media/pdf.worker.min.40848c74dce1ab1b530c.js",
+    "static/media/Resume-Web Development.pdf": "/Portfolio/static/media/Resume-Web Development.2b1f9b6963010abcbadf.pdf",
+    "static/media/emojify.png": "/Portfolio/static/media/emojify.80a65dd390f1f095d732.png",
+    "static/media/Note-Taking.png": "/Portfolio/static/media/Note-Taking.7e2de89c9f1775c2004f.png",
+    "static/media/weather.png": "/Portfolio/static/media/weather.bf9dfec71a5c71dba57f.png",
+    "static/media/quiz.png": "/Portfolio/static/media/quiz.3a21e33fd207ffcc2d90.png",
+    "static/media/password.png": "/Portfolio/static/media/password.1ffb01ec775c02abb7fe.png",
+    "static/media/MemoMates.png": "/Portfolio/static/media/MemoMates.715cb2b08b4dc0f7e9af.png",
+    "index.html": "/Portfolio/index.html",
+    "main.97bd4453.css.map": "/Portfolio/static/css/main.97bd4453.css.map",
+    "main.395eb096.js.map": "/Portfolio/static/js/main.395eb096.js.map",
+    "787.b98c23e5.chunk.js.map": "/Portfolio/static/js/787.b98c23e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97bd4453.css",
+    "static/js/main.395eb096.js"
+  ]
+}
