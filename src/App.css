@@ -97,5 +97,5 @@ ul {
 .custom-footer{flex-direction: column;height: auto; padding: 1rem;grid-row: 4;}}
 
 
-
+.react-pdf__Page__textContent { display: none;}
 

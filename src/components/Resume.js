@@ -10,10 +10,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 
 function Resume() {
   return (
-    <div>
-      <Document file={pdfFile}>
-        <Page pageNumber={1} />
-      </Document>
+    <div className="pdf-wrapper" >
+       <Document className="resume" file={pdfFile}> 
+        <Page pageNumber={1} className="pdf-page" scale={1.2}/> 
+      </Document> 
     </div>
   );
 }

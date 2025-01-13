@@ -74,3 +74,6 @@ margin: 0 10px;}
  
 .card-body a{text-decoration: none;font-size: larger;font-weight: bolder;color:#FF7F7F ;}
 
+.react-pdf__Page__canvas { background-color:#79C7C2 !important; /* Ensure the background color is applied */ width: 100%; /* Adjust as needed */ max-width: 800px; /* Adjust as needed */ margin: auto; /* Center the PDF */ padding: 20px;margin-top: 100px; /* Adjust padding as needed */ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for visual effect */ }
+
+.pdf-wrapper { display: flex; justify-content: center; align-items: center; /* Ensure it takes full height of the viewport */ }
