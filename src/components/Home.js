@@ -4,7 +4,7 @@ import Profile from "./Profile";
 import Intro from "./Intro";
 import Footer from "./Footer"
 
-export default function About() {
+export default function Home() {
   return (
     
     <div className='grid-container'>

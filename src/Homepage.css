@@ -23,7 +23,7 @@
 /*Nav-Bar*/
 
 .custom-nav {grid-area: nav; grid-column: 1 / 2; grid-row: 1 / 1;
-display: flex;align-self: flex-start; justify-content: space-between; padding: 10px 20px;width: 100%;margin: 0;background-color:#79C7C2;} 
+display: flex;align-self: flex-start; justify-content: space-between; padding: 10px 20px;width: 100%;margin: 0;background-color:#fb6a78;} 
 
 .nav-links {font-size:larger;font-weight:500}
 
@@ -33,7 +33,7 @@ display: flex;align-self: flex-start; justify-content: space-between; padding: 1
 
 /*Intro-Section*/
 
-.custom-intro {grid-area: intro; grid-column: 2 / 3;grid-row:span 2;background-color: #FF7F7F;display: flex;flex-direction: column;flex-wrap:wrap;} 
+.custom-intro {grid-area: intro; grid-column: 2 / 3;grid-row:span 2;background-color: #79C7C2;display: flex;flex-direction: column;flex-wrap:wrap;} 
 
 .intro-text{margin-left:2rem;flex-wrap:wrap;font-size: larger;margin-right:5rem;margin-top: 5rem;}
 
@@ -45,7 +45,7 @@ display: flex;align-self: flex-start; justify-content: space-between; padding: 1
 display: flex;
   border-radius: 50%;
   justify-self: center;
-  border-color:#79C7C2;
+  border-color:#fb6a78;
   border-style: solid;
 
   width:30rem;
@@ -64,7 +64,7 @@ img:hover {
   display: flex;flex-direction: row;margin-top: 5rem;justify-content: center;
 }
 
-.profile-circles { width: 200px; height: 200px; background-color: rgb(201, 198, 198); border-radius: 50%; line-height: 100px;display: flex;justify-content: center;align-items:center;margin:1rem;font-size: larger;font-weight: bolder;border-color:#79C7C2;border-style: solid;}
+.profile-circles { width: 200px; height: 200px; background-color: rgb(201, 198, 198); border-radius: 50%; line-height: 100px;display: flex;justify-content: center;align-items:center;margin:1rem;font-size: larger;font-weight: bolder;border-color:#fb6a78;border-style: solid;}
 
 
 /*Footer*/

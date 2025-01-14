@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import {Nav, Navbar} from "react-bootstrap";
-import "../App.css";
-//import styled from 'styled-components'
-
-//const StyledNavbar = styled(Navbar)` background-color: #4CAF50;padding: 15px; `
 
 
 

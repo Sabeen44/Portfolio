@@ -4,7 +4,7 @@ import { useState } from "react";
 import {Container, Nav, Navbar} from "react-bootstrap";
 //import Nav from "react-bootstrap";
 //import Navbar from "react-bootstrap/Navbar";
-import "../App.css";
+//import "../App.css";
 import { Link } from "react-router-dom";
 //import Scrollspy from "react-scrollspy";
 
