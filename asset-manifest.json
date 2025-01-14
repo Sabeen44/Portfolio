@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.833010cb.css",
-    "main.js": "/Portfolio/static/js/main.8488aa53.js",
+    "main.css": "/Portfolio/static/css/main.e3832612.css",
+    "main.js": "/Portfolio/static/js/main.95cfe984.js",
     "static/js/787.b98c23e5.chunk.js": "/Portfolio/static/js/787.b98c23e5.chunk.js",
     "static/media/profile-pic.JPG": "/Portfolio/static/media/profile-pic.35635a84db345b0d47c9.JPG",
     "static/media/Resume-Web Development.pdf": "/Portfolio/static/media/Resume-Web Development.2b1f9b6963010abcbadf.pdf",
@@ -12,12 +12,12 @@
     "static/media/password.png": "/Portfolio/static/media/password.1ffb01ec775c02abb7fe.png",
     "static/media/MemoMates.png": "/Portfolio/static/media/MemoMates.715cb2b08b4dc0f7e9af.png",
     "index.html": "/Portfolio/index.html",
-    "main.833010cb.css.map": "/Portfolio/static/css/main.833010cb.css.map",
-    "main.8488aa53.js.map": "/Portfolio/static/js/main.8488aa53.js.map",
+    "main.e3832612.css.map": "/Portfolio/static/css/main.e3832612.css.map",
+    "main.95cfe984.js.map": "/Portfolio/static/js/main.95cfe984.js.map",
     "787.b98c23e5.chunk.js.map": "/Portfolio/static/js/787.b98c23e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.833010cb.css",
-    "static/js/main.8488aa53.js"
+    "static/css/main.e3832612.css",
+    "static/js/main.95cfe984.js"
   ]
 }
